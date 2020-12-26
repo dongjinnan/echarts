@@ -1,0 +1,277 @@
+body {
+    background-color: #333333;
+    color: #fff;
+}
+
+input {
+    width: 100px;
+    color:white;
+    background-color: #333333;
+    border:1px solid black;
+    border-radius: 4px;
+}
+
+select {
+    color:white;
+    padding: 1px 2px;
+    background-color: #333333;
+    border:1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.ccb-header {
+    width: 100%;
+    height: 110px;
+}
+
+.ccb-title {
+    height: 50px;
+    line-height: 40px;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 3px solid black;
+}
+
+.ccb-sub-title {
+    height: 30px;
+    padding: 12px 10px;
+    border-bottom: 3px solid black;
+}
+
+.ccb-sub-title div {
+    float: left;
+}
+
+.ccb-sub-title div span {
+    display: block;
+    font-size: 10px;
+}
+
+.ccb-logo {
+    width: 10%;
+}
+
+.ccb-logo img{
+    width: 25%;
+    float: left;
+    margin-right: 5px;
+}
+
+.ccb-logo span {
+    margin-top: 15px;
+    font-size: 14px!important;
+}
+
+.ccb-ifrs-desc {
+    width: 25%;
+    margin-top: 5px;
+}
+
+.ccb-ifrs-desc span:first-child {
+    color: gray;
+    margin-bottom: 1px;
+}
+
+.ccb-ifrs-desc span:last-child {
+    font-size: 12px;
+}
+
+.portfolio {
+    margin-top: -3px;
+    width: 8%;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.portfolio span {
+    font-size: 9px!important;
+}
+
+.portfolio span:first-child {
+    display:inline;
+}
+
+.selected-title {
+    background-color: black;
+}
+
+.staging {
+    width: 8%;
+    line-height: 30px;
+    margin-left: 1%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.ecl-calc {
+    width: 8%;
+    cursor: pointer;
+    text-align: center;
+    margin: -2px 16% 0px 1%;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.ccb-selector {
+    width: 8%;
+    line-height: 28px;
+}
+
+.search {
+    width: 9%;
+    text-align: right;
+    margin-right: 1%;
+    margin-top: -2px;
+}
+
+.search img {
+    width: 45%;
+    cursor: pointer;
+}
+
+.search input {
+    margin-top: 7px;
+    margin-left: 10%;
+    display: none;
+}
+
+.change-btn{
+    display: inline!important;
+    font-size: 25px!important;
+}
+
+.change-left {
+    width: 0;
+    height: 0px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    margin-top: 7px;
+    margin-right:5px;
+    cursor: pointer;
+}
+
+.change-right {
+    margin-top: 7px;
+    width: 0;
+    height: 0px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.ccb-content {
+    padding: 10px;
+}
+
+.grid-title p:first-child {
+    color: #FFE600;
+    font-size: 14px;
+    padding-left:5px;
+    border-left: 3px solid #76EEC6;
+}
+
+.grid-title p:last-child {
+    font-size: 9px;
+    margin-top: -5px;
+}
+
+.left-panel {
+    width: 48%;
+    height: 565px;
+    float: left;
+    margin-bottom: 20px;
+    border-right: 3px solid black;
+}
+
+.right-panel {
+    width: 48%;
+    height: 500px;
+    float: left;
+}
+
+.left-top-panel {
+    height: 480px;
+    border-bottom: 3px solid black;
+}
+
+.left-top-panel .grid_content {
+    width: 96%;
+    height: 440px;
+}
+
+.right-panel .grid_content {
+    width: 100%;
+    height: 221.1px;
+}
+
+.right-top-panel {
+    width: 100%;
+    padding-left: 2%;
+    border-bottom: 3px solid black;
+}
+
+.right-bottom-panel {
+    width: 100%;
+    padding-left: 2%;
+    border-bottom: 3px solid black;
+}
+
+.right-bottom-panel .grid_content {
+    width: 95%;
+}
+
+.left-bottom-panel {
+    width: 100%;
+    height: 65px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.left-bottom-panel div {
+    width: 32%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.left-bottom-panel div:first-child {
+    height: 60px;
+    border-right: 3px solid black;
+}
+
+.left-bottom-panel div:nth-child(2) {
+    height: 60px;
+    border-right: 3px solid black;
+}
+
+.left-bottom-panel div img {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.left-bottom-panel div span {
+    display: block;
+    font-size: 12px;
+}
+
+.left-bottom-panel .number {
+    margin-top: 15px;
+}
+
+.grid_panel {
+    width:600px;
+    height:500px;
+}
